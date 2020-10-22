@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="jH/H~HlWQ.{h}M1X=832">Player</variable><variable type="KIND_SpriteKind" id="J%]0xOQf{*GFX^`eOB:d">Projectile</variable><variable type="KIND_SpriteKind" id="}6HE5t7r^t]p8OxBkIE1">Food</variable><variable type="KIND_SpriteKind" id="WDE]NQ?t=oqNo+`w5lD[">Enemy</variable><variable id="@*;FbU0(Hc#HGK9,#B@X">spaceship</variable><variable id="*C^7^fVksWD4zG6;!eq|">mySprite</variable></variables><block type="pxt-on-start" id=".kKsMLO4g9Z,O|NQ4knY" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="b,)sX-+m3:0+zpDmVZqO"><field name="VAR" id="@*;FbU0(Hc#HGK9,#B@X">spaceship</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="rA@3nJJvEU:YK`6x4}mP"><value name="img"><shadow type="screen_image_picker" id="?+-MKxsA-3.VN^Sc%o+p"><field name="img">img`
+. . . . . . . c d . . . . . . . 
+. . . . . . . c d . . . . . . . 
+. . . . . . . c d . . . . . . . 
+. . . . . . . c b . . . . . . . 
+. . . . . . . f f . . . . . . . 
+. . . . . . . c 2 . . . . . . . 
+. . . . . . . f f . . . . . . . 
+. . . . . . . e 2 . . . . . . . 
+. . . . . . e e 4 e . . . . . . 
+. . . . . . e 2 4 e . . . . . . 
+. . . . . c c c e e e . . . . . 
+. . . . e e 2 2 2 4 e e . . . . 
+. . c f f f c c e e f f e e . . 
+. c c c c e e 2 2 2 2 4 2 e e . 
+c c c c c c e e 2 2 2 4 2 2 e e 
+c c c c c c e e 2 2 2 2 4 2 e e 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="wYi/0o|n|!=a|?YS!:RA"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id=";E}V)v*Ep_.IAzf[(j$|"><value name="sprite"><block type="variables_get" id="dE?iD[DKF-4Jt|8F.:J1"><field name="VAR" id="@*;FbU0(Hc#HGK9,#B@X">spaceship</field></block></value><value name="x"><shadow type="positionPicker" id=";!:VHG=VZV):myXU7IVV"><field name="index">80</field></shadow></value><value name="y"><shadow type="positionPicker" id="@I}d?[JP+_|Fd%*vWv%."><field name="index">97</field></shadow></value><next><block type="spritesetsetflag" id="{:K7ATX?{oWG3%w{l.)["><field name="flag">SpriteFlag.StayInScreen</field><value name="sprite"><block type="variables_get" id="Qk9!X}s?.MML!($4_O2;"><field name="VAR" id="@*;FbU0(Hc#HGK9,#B@X">spaceship</field></block></value><value name="on"><shadow type="toggleOnOff" id="dU6}%F?aRQ}L==k5=cr@"><field name="on">true</field></shadow></value></block></next></block></next></block></statement></block><block type="gameupdate" id="bDhn2n5WbtE+jQ7omd*j" x="70" y="310"><statement name="HANDLER"><block type="Sprite_blockCombine_set" id="9,VR9(cK3-*tSt3ew?p3"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get" id="~vN3Qeq+zGfS/t)0RLiI"><field name="VAR" id="@*;FbU0(Hc#HGK9,#B@X">spaceship</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="keydx" id="bU1pvd|bH8Po)),c:3R`"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation></block></value></block></statement></block></xml>
