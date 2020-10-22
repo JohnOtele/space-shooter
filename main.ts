@@ -1,4 +1,8 @@
-let spaceship = sprites.create(img`
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    spaceship.setPosition(80, 97)
+})
+let spaceship: Sprite = null
+spaceship = sprites.create(img`
     . . . . . . . c d . . . . . . . 
     . . . . . . . c d . . . . . . . 
     . . . . . . . c d . . . . . . . 
